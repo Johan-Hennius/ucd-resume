@@ -1,14 +1,17 @@
 /* Lato Font */
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
 
+/*----------------------------------------------------Custom colors */
 :root {
   --grey-color: #ccd0d9;
   --red-color: #8a2c2d;
   --blue-color: #497895;
   --green-color: #598637;
   --black-color: #090f0b;
+  --white-color: #fbfaf6;
 }
-/* Box sizing rules */
+
+/*-----------------------------------------------------Box sizing rules */
 *,
 *::before,
 *::after {
@@ -16,11 +19,17 @@
 }
 
 .bg-color-name-title {
-  background-color: ;
+  background-color: var(--red-color);
 }
 
+/*-----------------------------------------------------Heading */
+
 .header {
-    margin: 0;
+  margin: 0;
+}
+
+.heading {
+  margin-left: 3rem;
 }
 
 .logo {
@@ -30,8 +39,23 @@
     background-size: cover;
 
     min-height: 22.5rem;
-    min-width: 22.5rem;
     transition: all .8s ease-in-out;
     -moz-transition: all .8s ease-in-out;
     -webkit-transition: all .8s ease-in-out;
+}
+
+.name {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 2.5rem;
+  margin-top: 2em;
+  color: var(--white-color);
+}
+
+.title {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-size: 1.33rem;
+  color: var(--white-color);
+  margin-bottom: 2.5em;
 }
