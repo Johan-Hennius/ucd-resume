@@ -3,7 +3,8 @@
 
 /*----------------------------------------------------Custom colors */
 :root {
-  --grey-color: #ccd0d9;
+  --l-greyblue-color: #9ab1c3;
+  --d-greyblue-color: #b9c1cd;
   --red-color: #8a2c2d;
   --blue-color: #497895;
   --green-color: #598637;
@@ -19,7 +20,23 @@
 }
 
 .bg-color-name-title {
+  background-image: linear-gradient(to right, var(--l-greyblue-color) 66%, var(--d-greyblue-color));
+}
+
+.ui-menu-color-home {
+  background-color: var(--l-greyblue-color);
+}
+
+.ui-menu-color-resume {
   background-color: var(--red-color);
+}
+
+.ui-menu-color-contact {
+  background-color: var(--green-color);
+}
+
+.ui-menu-color-download {
+  background-color: var(--black-color);
 }
 
 /*-----------------------------------------------------Heading */
