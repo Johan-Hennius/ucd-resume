@@ -29,6 +29,10 @@
   height: 15rem;
 }
 
+.bg-color-three-reason {
+  background-color: var(--white-color);
+}
+
 .ui-menu-color-home {
   background-color: var(--l-greyblue-color);
 }
@@ -68,6 +72,22 @@ h4 {
   display: inline-block;
   font-size: .8rem;
   color: var(--white-color);
+}
+
+.row-table {
+  display: table;
+}
+
+.section-column {
+  display: table-cell;
+  padding: 0 1rem 1rem;
+  float: none;
+}
+
+.section-heading {
+  font-weight: 300;
+  margin-top: 1.5rem;
+  margin-bottom: 2rem;
 }
 
 /*-----------------------------------------------------Heading */
