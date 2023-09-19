@@ -1,6 +1,13 @@
 /* Lato Font */
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
 
+:root {
+  --grey-color: #ccd0d9;
+  --red-color: #8a2c2d;
+  --blue-color: #497895;
+  --green-color: #598637;
+  --black-color: #090f0b;
+}
 /* Box sizing rules */
 *,
 *::before,
@@ -8,7 +15,11 @@
   box-sizing: border-box;
 }
 
-header {
+.bg-color-name-title {
+  background-color: ;
+}
+
+.header {
     margin: 0;
 }
 
