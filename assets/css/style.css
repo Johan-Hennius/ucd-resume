@@ -20,9 +20,10 @@
 }
 
 /*-----------------------------------------------------Colors */
-
+/* Main heading color & height */
 .bg-color-name-title {
   background-image: linear-gradient(to right, var(--l-greyblue-color) 66%, var(--d-greyblue-color));
+  height: 15rem;
 }
 
 .ui-menu-color-home {
@@ -77,6 +78,12 @@
   font-size: 1.33rem;
   color: var(--white-color);
   margin-bottom: 2.5em;
+}
+
+/*-----------------------------------------------------Nav */
+
+#nav {
+  margin: 0;
 }
 
 .list-inline-item:not(:last-child) {
