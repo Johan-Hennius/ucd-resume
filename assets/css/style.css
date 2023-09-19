@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
 
 /*----------------------------------------------------Custom colors */
+
 :root {
   --l-greyblue-color: #9ab1c3;
   --d-greyblue-color: #b9c1cd;
@@ -13,6 +14,7 @@
 }
 
 /*-----------------------------------------------------Box sizing rules */
+
 *,
 *::before,
 *::after {
@@ -20,6 +22,7 @@
 }
 
 /*-----------------------------------------------------Colors */
+
 /* Main heading color & height */
 .bg-color-name-title {
   background-image: linear-gradient(to right, var(--l-greyblue-color) 66%, var(--d-greyblue-color));
@@ -40,6 +43,31 @@
 
 .ui-menu-color-download {
   background-color: var(--black-color);
+}
+
+/*-----------------------------------------------------Special paddings/margins/text */
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.general-sub {
+  font-weight: 300;
+  font-size: .8rem;
+  color: var(--white-color);
+}
+
+.inline-block {
+  display: inline-block;
+  font-size: .8rem;
+  color: var(--white-color);
 }
 
 /*-----------------------------------------------------Heading */
@@ -148,4 +176,52 @@
 #download .hvr-underline-from-center::before {
   background-color: var(--red-color);
   height: .3rem;
+}
+
+/*-----------------------------------------------------Footer */
+
+footer {
+  background-image: linear-gradient(to right, var(--l-greyblue-color) 66%, var(--d-greyblue-color));
+  min-height: 7.5rem;
+  font-weight: 400;
+}
+
+.cv-pdf i {
+  font-size: .9rem;
+  color: var(--white-color);
+  text-align: center;
+  padding-left: .25em;
+  transition: all .5s ease-in-out;
+  -moz-transition: all .5s ease-in-out;
+  -webkit-transition: all .5s ease-in-out;
+  -o-transition: all .5s ease-in-out;
+}
+
+.cv-pdf i:hover {
+  color: var(--green-color)
+}
+
+.social-links {
+  padding-bottom: .9rem;
+}
+
+.social-links li a i {
+  padding-top: .75rem;
+  padding-right: .75rem;
+  font-size: 1.5rem;
+  line-height: .5em;
+  text-align: center;
+  color: var(--white-color);
+  transition: all .5s ease-in-out;
+  -moz-transition: all .5s ease-in-out;
+  -webkit-transition: all .5s ease-in-out;
+  -o-transition: all .5s ease-in-out;
+}
+
+.social-links li a i:hover {
+  color: var(--green-color)
+}
+
+#footer-details {
+  padding: 1.5rem 1rem;
 }
