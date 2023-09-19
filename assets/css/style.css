@@ -13,11 +13,13 @@ header {
 }
 
 .logo {
-    background-image: url("../images/johanbhennius.jpg");
+    background: url("../images/johanbhennius.JPG");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+
     min-height: 22.5rem;
+    min-width: 22.5rem;
     transition: all .8s ease-in-out;
     -moz-transition: all .8s ease-in-out;
     -webkit-transition: all .8s ease-in-out;
