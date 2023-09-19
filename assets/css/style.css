@@ -103,6 +103,7 @@
   text-align: center;
   padding: 0;
 }
+
 .menuitem a {
   width: 100%;
   text-decoration: none;
@@ -111,7 +112,7 @@
 }
 
 .menuitem a i {
-  padding-top: 1.25rem;
+  padding-top: 2rem;
   display: block;
   color: var(--white-color);
   font-size: 1.25rem;
