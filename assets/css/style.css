@@ -127,3 +127,24 @@
   font-size: .8rem;
   letter-spacing: .1rem;
 }
+
+/*---------------------------------------Hover CSS*/
+#home .hvr-underline-from-center::before {
+  background-color: var(--green-color);
+  height: .3rem;
+}
+
+#resume .hvr-underline-from-center::before {
+  background-color: var(--black-color);
+  height: .3rem;
+}
+
+#contact .hvr-underline-from-center::before {
+  background-color: var(--l-greyblue-color);
+  height: .3rem;
+}
+
+#download .hvr-underline-from-center::before {
+  background-color: var(--red-color);
+  height: .3rem;
+}
