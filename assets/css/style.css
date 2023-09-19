@@ -76,3 +76,15 @@
   color: var(--white-color);
   margin-bottom: 2.5em;
 }
+
+.list-inline-item:not(:last-child) {
+  margin: 0;
+}
+
+.menucontainer {
+  font-size: 0;
+}
+
+#nav li {
+  font-size: 1rem;
+}
