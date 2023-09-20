@@ -307,3 +307,23 @@ footer {
   position: relative;
   width: 60%;
 }
+
+/*---------------------------------------------------------My skills*/
+.progress-section {
+  margin: 2rem 1.625rem;
+}
+
+.progress {
+  position: relative;
+  height: 1.625rem;
+  border-radius: 1rem;
+  margin-bottom: .4rem;
+}
+
+.progress-type {
+  position: absolute;
+  left: 1rem;
+  font-weight: 400;
+  color: var(--black-color);
+  margin-top: .75rem;
+}
