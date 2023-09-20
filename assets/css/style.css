@@ -101,6 +101,10 @@ p {
   margin-bottom: 2rem;
 }
 
+.section-heading-white {
+  color: var(--white-color);
+}
+
 /*-----------------------------------------------------Heading */
 
 .header {
@@ -266,4 +270,40 @@ footer {
 
 .three-reason-heading {
   margin-bottom: 1rem;
+}
+
+/*---------------------------------------------------------Personal info*/
+
+.personal-info-item {
+  color: var(--white-color);
+  margin-bottom: 1.625rem;
+  display: block;
+  clear: both;
+}
+
+.personal-info-item .key,
+.personal-info-item .value {
+  padding-right: .5rem;
+  display: inline-block;
+}
+
+.personal-info-item .key p,
+.personal-info-item .value p {
+  margin: 0;
+}
+
+.personal-info-item .key {
+  width: 30%;
+  margin-right: 1rem;
+  padding-top: .2rem;
+  vertical-align: top;
+}
+
+.personal-info-item .key p {
+  font-weight: 700;
+}
+
+.personal-info-item .value {
+  position: relative;
+  width: 60%;
 }
